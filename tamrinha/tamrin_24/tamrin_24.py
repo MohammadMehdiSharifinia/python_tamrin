@@ -39,9 +39,6 @@ class Student(Human):
         )
 
 
-student = Student(
-    'MohammadMehdiSharifinia', 22, 175, 80, 5560746193,
-    '02120040709007', 'Control', 709, 'Bachelor', '021'
-)
+student = Student('MohammadMehdiSharifinia', 22, 175, 80, 5560746193,'02120040709007', 'Control', 709, 'Bachelor', '021')
 
 print(student.get_info())
